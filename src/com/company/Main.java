@@ -1,6 +1,8 @@
 package com.company;
 import java.util.Scanner;
-
+/**  @author JuanManuel
+@version 1.0
+*/
 public class Main {
 
     public static void main(String[] args) {
@@ -22,6 +24,10 @@ public class Main {
         }
     }
 
+    /**
+     * Este metodo se encarga de rellanar un array de numero primos con el limite de 1 a max un valor dado
+     * @return devuelve un array de primos o uno vacio
+     */
     // Generar números primos de 1 a max
     public static int[] generarPrimos (int max)
     {
